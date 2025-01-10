@@ -1,0 +1,154 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f4f4; /* Off-white */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #5c0a6b; /* Royal Purple */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #5c0a6b; /* Royal Purple */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Section */
+.main-content {
+  padding: 50px;
+  text-align: center;
+}
+
+.main-content h2 {
+  color: #5c0a6b; /* Royal Purple */
+  font-size: 2em;
+}
+
+.main-content p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Job Listings Section */
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.job-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.job-card h3 {
+  color: #5c0a6b; /* Royal Purple */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.job-card a {
+  background-color: #5c0a6b; /* Royal Purple */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.job-card a:hover {
+  background-color: #3f074f; /* Darker Purple */
+  color: blanchedalmond;
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  color: #5c0a6b; /* Royal Purple */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #5c0a6b; /* Royal Purple */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+

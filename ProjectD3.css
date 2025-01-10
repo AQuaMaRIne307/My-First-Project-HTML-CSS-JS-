@@ -1,0 +1,101 @@
+ tr, td {
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+    background-color:peachpuff;
+  }
+ form{
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+    width: auto;
+    box-shadow: #444 10px;
+    background-color:peachpuff;
+ }
+ input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+  }
+  input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .rwd-table {
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+    margin: 7px 0;
+    min-width: 300px; 
+  }
+    tr {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      display: block;
+    }
+    
+    td {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      display: block; 
+      }
+
+    th, td {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      text-align: left;
+      
+      @media (min-width: $breakpoint-alpha) {
+        display: table-cell;
+        padding: 7px 3px;
+        
+        &:first-child {
+          padding-left: 0;
+        }
+        
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+  
+    }
+  
+  body {
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+    padding: 0 2em;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #444;
+    background: #eee;
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #34495E;
+  }
+  
+  .rwd-table {
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+   tr{
+      border-color: lighten(#34495E, 10%);
+    }
+    th, td {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      margin: 7px 3px;
+      @media (min-width: $breakpoint-alpha) { 
+        padding: 7px !important; 
+      }
+    }
+    th, td:before {
+      box-shadow: 7px 7px 10px rgba(0,0,0,0.5) ;
+      color: #dd5;
+    }
