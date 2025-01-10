@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProjectD3.css">
+    <title>PROD3 Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Info.</legend>
+                <table>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="FirstName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Midle Name:</td>
+                        <td><input type="text" name="MiddleName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="LstName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth:</td>
+                        <td><input type="date" name="DateOfBirth" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="Email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="Password" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="number" name="Phone"></td>
+                    </tr>
+                </table>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+                <table>
+                    <tr>
+                        <td>University Name:</td>
+                        <td><input type="text" name="University Name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Enrollment No:</td>
+                        <td><input type="number" name="EnrollmentNo" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="Department" required>
+                                <option value="">Department Name</option>
+                                <option value="cs">Computer</option>
+                                <option value="mech">Mechanical</option>
+                                <option value="elec">Electrical</option>
+                            </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Year:</td>
+                        <td>
+                            <input type="radio" name="Year" value="1st" required>1st year
+                            <input type="radio" name="Year" value="2nd" required>2nd year
+                            <input type="radio" name="Year" value="3rd" required>3rd year
+                            <input type="radio" name="Year" value="4th" required>4th year
+                            </select>
+                        </td>
+                    </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>
+                    <input type="checkbox" name="Hobby" value="Sports">Sports
+                    <input type="checkbox" name="Hobby" value="Music">Music
+                    <input type="checkbox" name="Hobby" value="Games">Games
+                    <input type="checkbox" name="Hobby" value="Reading">Reading
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="Year" value="1st" required>Male
+                        <input type="radio" name="Year" value="2nd" required>Female
+                        </select>
+                    </td>
+                </tr>
+                </table>
+            </fieldset>
+                <fieldset>
+                    <legend>Actions</legend>
+                    <table>
+                         <tr>
+                            <td colspan="2" style="text-align:center;">
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
